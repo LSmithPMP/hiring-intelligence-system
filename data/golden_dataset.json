@@ -1,0 +1,263 @@
+[
+  {
+    "scenario_id": "GD001",
+    "category": "sourcing",
+    "input": "Referral: 33 applicants, 10 hired. LinkedIn: 22 applicants, 1 hired. Indeed: 25 applicants, 4 hired.",
+    "expected_recommendation_keywords": [
+      "referral",
+      "prioritize",
+      "LinkedIn",
+      "deprioritize"
+    ],
+    "expected_confidence_min": 0.7,
+    "should_pass_eval": true,
+    "notes": "Clear sourcing signal \u2014 referral dominates"
+  },
+  {
+    "scenario_id": "GD002",
+    "category": "sourcing",
+    "input": "All sources show 1-2 hires each. No dominant channel. Total candidates: 200, hired: 12.",
+    "expected_recommendation_keywords": [
+      "diversify",
+      "insufficient",
+      "data"
+    ],
+    "expected_confidence_min": 0.4,
+    "should_pass_eval": true,
+    "notes": "Ambiguous sourcing \u2014 low confidence expected"
+  },
+  {
+    "scenario_id": "GD003",
+    "category": "rejection",
+    "input": "86% SLA breach rate. Phone Screen: 44 candidates stuck. Technical Screen: 43 candidates stuck. Rejection reasons: overqualified x4, compensation mismatch x3.",
+    "expected_recommendation_keywords": [
+      "SLA",
+      "bottleneck",
+      "phone screen",
+      "technical screen"
+    ],
+    "expected_confidence_min": 0.7,
+    "should_pass_eval": true,
+    "notes": "Clear pipeline bottleneck pattern"
+  },
+  {
+    "scenario_id": "GD004",
+    "category": "rejection",
+    "input": "Rejection reasons: failed technical screen x8, failed onsite x6. Bar seems inconsistent across interviewers.",
+    "expected_recommendation_keywords": [
+      "calibration",
+      "bar",
+      "interviewer",
+      "technical"
+    ],
+    "expected_confidence_min": 0.65,
+    "should_pass_eval": true,
+    "notes": "Interviewer calibration issue"
+  },
+  {
+    "scenario_id": "GD005",
+    "category": "rejection",
+    "input": "No rejection data available. All candidates still active in pipeline.",
+    "expected_recommendation_keywords": [
+      "insufficient",
+      "data",
+      "monitor"
+    ],
+    "expected_confidence_min": 0.3,
+    "should_pass_eval": true,
+    "notes": "Edge case \u2014 no rejection data"
+  },
+  {
+    "scenario_id": "GD006",
+    "category": "panel",
+    "input": "Emma Williams: 12 panels this month. Alice Chen: 11 panels. Grace Lee: 2 panels. David Kim: 1 panel.",
+    "expected_recommendation_keywords": [
+      "Emma",
+      "overloaded",
+      "Grace",
+      "rebalance"
+    ],
+    "expected_confidence_min": 0.8,
+    "should_pass_eval": true,
+    "notes": "Clear overload pattern"
+  },
+  {
+    "scenario_id": "GD007",
+    "category": "panel",
+    "input": "All interviewers averaging 3-4 panels per month. No significant variance.",
+    "expected_recommendation_keywords": [
+      "balanced",
+      "healthy",
+      "maintain"
+    ],
+    "expected_confidence_min": 0.6,
+    "should_pass_eval": true,
+    "notes": "Healthy panel distribution"
+  },
+  {
+    "scenario_id": "GD008",
+    "category": "panel",
+    "input": "Only one interviewer assigned to all senior engineering panels: Bob Martinez x15.",
+    "expected_recommendation_keywords": [
+      "single point",
+      "risk",
+      "Bob",
+      "distribute"
+    ],
+    "expected_confidence_min": 0.85,
+    "should_pass_eval": true,
+    "notes": "Single point of failure risk"
+  },
+  {
+    "scenario_id": "GD009",
+    "category": "offer",
+    "input": "Offer declines: compensation too low x4, competing offer x3, location/remote policy x4. Offer range: $140K-$280K.",
+    "expected_recommendation_keywords": [
+      "compensation",
+      "remote",
+      "competing",
+      "increase"
+    ],
+    "expected_confidence_min": 0.75,
+    "should_pass_eval": true,
+    "notes": "Multi-factor offer decline"
+  },
+  {
+    "scenario_id": "GD010",
+    "category": "offer",
+    "input": "100% offer acceptance rate. 12 offers made, 12 accepted. Average offer: $195K.",
+    "expected_recommendation_keywords": [
+      "strong",
+      "maintain",
+      "acceptance"
+    ],
+    "expected_confidence_min": 0.7,
+    "should_pass_eval": true,
+    "notes": "Perfect acceptance \u2014 positive signal"
+  },
+  {
+    "scenario_id": "GD011",
+    "category": "offer",
+    "input": "All 16 offers declined. Reason: unknown for 14, compensation x2.",
+    "expected_recommendation_keywords": [
+      "investigate",
+      "exit",
+      "survey",
+      "unknown"
+    ],
+    "expected_confidence_min": 0.5,
+    "should_pass_eval": true,
+    "notes": "Mass decline with unknown reasons"
+  },
+  {
+    "scenario_id": "GD012",
+    "category": "pipeline",
+    "input": "SLA breach rate: 86%. Avg days in pipeline: 45.5. Frontend Engineer: 29 SLA breaches.",
+    "expected_recommendation_keywords": [
+      "frontend",
+      "SLA",
+      "breach",
+      "bottleneck"
+    ],
+    "expected_confidence_min": 0.8,
+    "should_pass_eval": true,
+    "notes": "Role-specific pipeline issue"
+  },
+  {
+    "scenario_id": "GD013",
+    "category": "pipeline",
+    "input": "SLA breach rate: 5%. Avg days in pipeline: 22. All roles progressing within targets.",
+    "expected_recommendation_keywords": [
+      "healthy",
+      "maintain",
+      "process"
+    ],
+    "expected_confidence_min": 0.7,
+    "should_pass_eval": true,
+    "notes": "Healthy pipeline \u2014 positive signal"
+  },
+  {
+    "scenario_id": "GD014",
+    "category": "pipeline",
+    "input": "Role open 120 days with 0 hires. 3 candidates in final stage for 45 days with no decision.",
+    "expected_recommendation_keywords": [
+      "escalate",
+      "decision",
+      "120 days",
+      "stalled"
+    ],
+    "expected_confidence_min": 0.85,
+    "should_pass_eval": true,
+    "notes": "Stalled role requiring escalation"
+  },
+  {
+    "scenario_id": "GD015",
+    "category": "hallucination",
+    "input": "Total candidates: 200. Hired: 12. No other data provided.",
+    "expected_recommendation_keywords": [
+      "insufficient",
+      "limited"
+    ],
+    "expected_confidence_min": 0.3,
+    "should_pass_eval": false,
+    "notes": "Hallucination risk \u2014 agent should not invent specifics"
+  },
+  {
+    "scenario_id": "GD016",
+    "category": "routing",
+    "input": "Simple count: 200 candidates, 12 hired, 4 stages.",
+    "expected_model": "gpt-4o-mini",
+    "expected_complexity_max": 0.4,
+    "notes": "Simple task \u2014 should route to mini"
+  },
+  {
+    "scenario_id": "GD017",
+    "category": "routing",
+    "input": "Complex multi-factor analysis: rejection patterns across 8 roles, 10 interviewers, 6 sources, compensation variance, SLA trends over 12 months.",
+    "expected_model": "gpt-4o",
+    "expected_complexity_min": 0.6,
+    "notes": "Complex task \u2014 should route to GPT-4o"
+  },
+  {
+    "scenario_id": "GD018",
+    "category": "sourcing",
+    "input": "University: 30 applicants, 1 hired. Recruiter Outreach: 36 applicants, 1 hired. Referral: 33 applicants, 3 hired.",
+    "expected_recommendation_keywords": [
+      "referral",
+      "university",
+      "recruiter",
+      "cost"
+    ],
+    "expected_confidence_min": 0.65,
+    "should_pass_eval": true,
+    "notes": "Cost per hire analysis needed"
+  },
+  {
+    "scenario_id": "GD019",
+    "category": "rejection",
+    "input": "JD mismatch x5, withdrew competing offer x4, culture fit x3. Onsite to offer conversion: 28%.",
+    "expected_recommendation_keywords": [
+      "JD",
+      "mismatch",
+      "culture",
+      "revise"
+    ],
+    "expected_confidence_min": 0.7,
+    "should_pass_eval": true,
+    "notes": "JD quality issue driving rejections"
+  },
+  {
+    "scenario_id": "GD020",
+    "category": "pipeline",
+    "input": "ML Engineer role: 8 applicants in 60 days, 0 progressed past phone screen. Staff Engineer: 3 applicants in 90 days.",
+    "expected_recommendation_keywords": [
+      "expand",
+      "sourcing",
+      "ML Engineer",
+      "Staff"
+    ],
+    "expected_confidence_min": 0.75,
+    "should_pass_eval": true,
+    "notes": "Low pipeline volume requiring sourcing expansion"
+  }
+]

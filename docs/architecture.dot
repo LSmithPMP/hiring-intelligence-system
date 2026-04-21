@@ -1,0 +1,45 @@
+digraph HiringIntelligence {
+    rankdir=LR;
+    node [shape=box, style=filled, fontname=Arial];
+
+    // Input Layer
+    ATS [label="ATS Dataset\n200 candidates\n19 fields", fillcolor="#E3F2FD"];
+    KB [label="Knowledge Base\nHiring Benchmarks\n16 chunks", fillcolor="#E3F2FD"];
+
+    // RAG
+    RAG [label="RAG Pipeline\nChromaDB\ntext-embedding-3-small", fillcolor="#F3E5F5"];
+
+    // Supporting Agents
+    Router [label="Routing Agent\nComplexity Scoring\ngpt-4o-mini/4o", fillcolor="#FFF9C4"];
+    Eval [label="Evaluation Agent\nActionability\nGrounding\nHallucination", fillcolor="#FFF9C4"];
+
+    // Insight Agents
+    S1 [label="Sourcing Quality\nAgent", fillcolor="#E8F5E9"];
+    S2 [label="Rejection Pattern\nAgent", fillcolor="#E8F5E9"];
+    S3 [label="Panel Load\nBalancer Agent", fillcolor="#E8F5E9"];
+    S4 [label="Offer Insights\nAgent", fillcolor="#E8F5E9"];
+    S5 [label="Pipeline Health\nAgent", fillcolor="#E8F5E9"];
+
+    // Output Contract
+    Contract [label="Shared Output Contract\nrecommendation\nevidence\nconfidence_score\ncost_of_insight\nalternative", fillcolor="#FBE9E7"];
+
+    // Orchestration
+    Orch [label="Orchestrator\norchestrator.py", fillcolor="#E0F7FA"];
+    API [label="FastAPI\n/pipeline/run\n/insights\n/costs", fillcolor="#E0F7FA"];
+    N8N [label="n8n Cloud\nWebhook\nIF Router\nHealth Score\nFormatter", fillcolor="#E0F7FA"];
+
+    // Presentation
+    Dashboard [label="Streamlit Dashboard\nKPIs + Funnel\nInsights + Costs", fillcolor="#FCE4EC"];
+
+    // Connections
+    ATS -> Orch;
+    KB -> RAG;
+    RAG -> S1; RAG -> S2; RAG -> S3; RAG -> S4; RAG -> S5;
+    Router -> S1; Router -> S2; Router -> S3; Router -> S4; Router -> S5;
+    S1 -> Contract; S2 -> Contract; S3 -> Contract; S4 -> Contract; S5 -> Contract;
+    Contract -> Eval;
+    Eval -> Orch;
+    Orch -> API;
+    API -> N8N;
+    API -> Dashboard;
+}

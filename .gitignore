@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+.DS_Store
+knowledge_base/chroma_db/
+data/last_run_results.json
+data/golden_dataset_results.json
+lora-adapter/
+lora-support-classifier/

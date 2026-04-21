@@ -1,0 +1,201 @@
+candidate_id,name,role,source,apply_date,last_activity_date,current_stage,days_in_pipeline,interviewers_assigned,rejection_reason,offer_amount,offer_decline_reason,sla_breached,years_experience,interview_score,recruiter,department,remote_preference,competing_offers
+C0001,Candidate_1,Staff Engineer,LinkedIn,2024-05-20,2024-06-09,Applied,20,,,,,Yes,5,,Sarah Park,Security,Hybrid,Yes
+C0002,Candidate_2,Senior Software Engineer,LinkedIn,2024-04-21,2024-07-10,Applied,80,,,,,Yes,2,,Mike Torres,Security,Hybrid,Yes
+C0003,Candidate_3,ML Engineer,Company Website,2024-05-22,2024-05-25,Offer,3,"Grace Lee, Frank Brown, Emma Williams, Bob Martinez, James Wilson",,228236,Compensation too low,No,4,3.1,Lisa Wang,Infrastructure,Onsite,No
+C0004,Candidate_4,Senior Software Engineer,University,2024-08-23,2024-10-13,Technical Screen,51,Iris Thompson,,,,Yes,11,4.5,Lisa Wang,Security,Remote,Unknown
+C0005,Candidate_5,Staff Engineer,LinkedIn,2024-12-04,2025-01-13,Applied,40,,,,,Yes,4,,Mike Torres,Platform,Hybrid,No
+C0006,Candidate_6,ML Engineer,University,2024-07-05,2024-08-22,Applied,48,,,,,Yes,8,,Lisa Wang,Platform,Onsite,Unknown
+C0007,Candidate_7,Engineering Manager,Company Website,2024-05-05,2024-06-25,Applied,51,,,,,Yes,10,,Mike Torres,Infrastructure,Remote,Yes
+C0008,Candidate_8,Senior Software Engineer,Recruiter Outreach,2024-06-10,2024-06-21,Phone Screen,11,,,,,Yes,8,,Lisa Wang,Product,Onsite,No
+C0009,Candidate_9,Frontend Engineer,University,2024-08-22,2024-09-11,Applied,20,,,,,Yes,9,,Lisa Wang,Security,Hybrid,Unknown
+C0010,Candidate_10,Frontend Engineer,Indeed,2024-04-22,2024-05-12,Rejected,20,,Timing,,,No,17,2.3,Sarah Park,Platform,Remote,Unknown
+C0011,Candidate_11,Engineering Manager,Recruiter Outreach,2024-12-14,2024-12-25,Phone Screen,11,,,,,Yes,14,,John Smith,Security,Hybrid,Unknown
+C0012,Candidate_12,Data Engineer,Company Website,2024-01-06,2024-01-23,Onsite,17,"Frank Brown, Bob Martinez, Emma Williams, David Kim, Iris Thompson",,,,No,16,2.0,Lisa Wang,Security,Remote,Unknown
+C0013,Candidate_13,Staff Engineer,Recruiter Outreach,2024-11-16,2025-02-08,Phone Screen,84,,,,,Yes,18,,Mike Torres,Product,Hybrid,Yes
+C0014,Candidate_14,Senior Software Engineer,Company Website,2024-06-14,2024-07-01,Technical Screen,17,"Emma Williams, David Kim",,,,Yes,3,2.7,Sarah Park,Platform,Onsite,No
+C0015,Candidate_15,Staff Engineer,Recruiter Outreach,2024-09-29,2024-10-18,Onsite,19,"Carol Johnson, Emma Williams, Grace Lee, Bob Martinez, Iris Thompson",,,,No,8,4.1,John Smith,Infrastructure,Hybrid,Unknown
+C0016,Candidate_16,ML Engineer,LinkedIn,2024-05-06,2024-06-21,Applied,46,,,,,Yes,2,,Mike Torres,Security,Remote,Yes
+C0017,Candidate_17,Staff Engineer,University,2024-11-19,2024-11-30,Applied,11,,,,,Yes,3,,Lisa Wang,Platform,Onsite,Yes
+C0018,Candidate_18,Data Engineer,University,2024-09-05,2024-09-24,Applied,19,,,,,Yes,20,,John Smith,Product,Hybrid,No
+C0019,Candidate_19,DevOps Engineer,LinkedIn,2024-02-19,2024-04-07,Onsite,48,"Henry Davis, Alice Chen, Bob Martinez, Iris Thompson",,,,Yes,14,4.2,Sarah Park,Product,Remote,Yes
+C0020,Candidate_20,ML Engineer,Referral,2024-08-04,2024-10-05,Applied,62,,,,,Yes,9,,Sarah Park,Data,Onsite,Yes
+C0021,Candidate_21,Senior Software Engineer,University,2024-10-03,2024-10-17,Offer,14,"Grace Lee, Henry Davis, Iris Thompson",,196032,Location/remote policy,No,3,2.5,Sarah Park,Data,Hybrid,No
+C0022,Candidate_22,Data Engineer,Glassdoor,2024-12-22,2025-03-06,Rejected,74,,JD mismatch,,,Yes,6,2.6,Mike Torres,Platform,Onsite,Unknown
+C0023,Candidate_23,Senior Software Engineer,University,2024-06-09,2024-08-25,Applied,77,,,,,Yes,17,,Mike Torres,Platform,Onsite,Yes
+C0024,Candidate_24,Engineering Manager,LinkedIn,2024-10-31,2024-12-03,Applied,33,,,,,Yes,14,,Sarah Park,Security,Remote,Unknown
+C0025,Candidate_25,Senior Software Engineer,Company Website,2024-02-11,2024-04-28,Phone Screen,77,,,,,Yes,20,,Lisa Wang,Infrastructure,Remote,Unknown
+C0026,Candidate_26,Security Engineer,Referral,2024-05-15,2024-08-11,Phone Screen,88,,,,,Yes,11,,John Smith,Infrastructure,Remote,Yes
+C0027,Candidate_27,ML Engineer,Company Website,2024-10-15,2024-10-27,Rejected,12,,Timing,,,No,8,3.5,Mike Torres,Infrastructure,Remote,Yes
+C0028,Candidate_28,Security Engineer,Indeed,2024-03-21,2024-06-01,Phone Screen,72,,,,,Yes,11,,Sarah Park,Security,Hybrid,Unknown
+C0029,Candidate_29,Staff Engineer,Referral,2024-05-15,2024-05-31,Applied,16,,,,,Yes,19,,Mike Torres,Infrastructure,Hybrid,Unknown
+C0030,Candidate_30,DevOps Engineer,University,2024-06-24,2024-09-16,Applied,84,,,,,Yes,10,,John Smith,Infrastructure,Remote,Yes
+C0031,Candidate_31,Frontend Engineer,Recruiter Outreach,2024-05-21,2024-07-05,Applied,45,,,,,Yes,6,,Lisa Wang,Product,Onsite,No
+C0032,Candidate_32,Frontend Engineer,Company Website,2024-01-05,2024-01-27,Applied,22,,,,,Yes,19,,Sarah Park,Infrastructure,Onsite,Unknown
+C0033,Candidate_33,Engineering Manager,Glassdoor,2024-03-06,2024-04-24,Applied,49,,,,,Yes,3,,Lisa Wang,Product,Onsite,Yes
+C0034,Candidate_34,Staff Engineer,Indeed,2024-10-13,2024-12-07,Hired,55,"Carol Johnson, James Wilson, Grace Lee",,146497,,Yes,7,4.2,Lisa Wang,Data,Onsite,Unknown
+C0035,Candidate_35,DevOps Engineer,Indeed,2024-03-22,2024-04-07,Onsite,16,"Henry Davis, David Kim, Iris Thompson",,,,No,16,3.0,Mike Torres,Product,Remote,Unknown
+C0036,Candidate_36,DevOps Engineer,Glassdoor,2024-06-17,2024-06-28,Phone Screen,11,,,,,Yes,10,,Lisa Wang,Security,Hybrid,Unknown
+C0037,Candidate_37,Security Engineer,LinkedIn,2024-02-29,2024-04-05,Offer,36,"Emma Williams, Alice Chen, Bob Martinez, James Wilson, David Kim",,230619,Timing,Yes,12,3.3,Sarah Park,Data,Onsite,Yes
+C0038,Candidate_38,Data Engineer,LinkedIn,2024-12-28,2025-03-07,Phone Screen,69,,,,,Yes,19,,Mike Torres,Infrastructure,Hybrid,Yes
+C0039,Candidate_39,Security Engineer,Company Website,2024-06-09,2024-06-27,Onsite,18,"Emma Williams, Grace Lee, Frank Brown, David Kim, Henry Davis",,,,No,11,3.7,Mike Torres,Data,Onsite,No
+C0040,Candidate_40,Engineering Manager,Company Website,2024-10-18,2024-12-30,Phone Screen,73,,,,,Yes,2,,Lisa Wang,Infrastructure,Remote,No
+C0041,Candidate_41,Security Engineer,Glassdoor,2024-08-14,2024-09-13,Phone Screen,30,,,,,Yes,18,,John Smith,Product,Onsite,Yes
+C0042,Candidate_42,Data Engineer,Company Website,2024-12-05,2025-01-19,Technical Screen,45,David Kim,,,,Yes,11,2.7,Mike Torres,Product,Remote,Yes
+C0043,Candidate_43,DevOps Engineer,Glassdoor,2024-11-08,2024-11-20,Offer,12,"James Wilson, David Kim, Grace Lee, Iris Thompson",,244766,Accepted competing offer,No,6,4.0,Sarah Park,Platform,Hybrid,Yes
+C0044,Candidate_44,Engineering Manager,Recruiter Outreach,2024-12-22,2024-12-31,Technical Screen,9,Bob Martinez,,,,No,16,2.4,John Smith,Security,Onsite,Unknown
+C0045,Candidate_45,Security Engineer,Recruiter Outreach,2024-08-14,2024-10-20,Technical Screen,67,"Iris Thompson, Henry Davis",,,,Yes,7,4.2,John Smith,Data,Hybrid,Yes
+C0046,Candidate_46,Data Engineer,Recruiter Outreach,2024-09-23,2024-10-26,Technical Screen,33,"Henry Davis, Bob Martinez",,,,Yes,11,2.7,Lisa Wang,Infrastructure,Onsite,Yes
+C0047,Candidate_47,Engineering Manager,Referral,2024-04-28,2024-05-20,Phone Screen,22,,,,,Yes,8,,Sarah Park,Data,Hybrid,No
+C0048,Candidate_48,ML Engineer,Glassdoor,2024-02-01,2024-03-28,Applied,56,,,,,Yes,14,,Sarah Park,Security,Hybrid,No
+C0049,Candidate_49,Senior Software Engineer,Indeed,2024-06-01,2024-07-27,Onsite,56,"David Kim, Emma Williams, Grace Lee, James Wilson",,,,Yes,2,3.2,John Smith,Product,Hybrid,Yes
+C0050,Candidate_50,Senior Software Engineer,Glassdoor,2024-10-30,2024-11-05,Technical Screen,6,Grace Lee,,,,No,6,4.6,Mike Torres,Platform,Hybrid,No
+C0051,Candidate_51,Security Engineer,Referral,2024-08-20,2024-10-10,Phone Screen,51,,,,,Yes,10,,John Smith,Infrastructure,Remote,No
+C0052,Candidate_52,Senior Software Engineer,University,2024-10-03,2024-11-19,Applied,47,,,,,Yes,9,,Sarah Park,Platform,Remote,Yes
+C0053,Candidate_53,DevOps Engineer,Recruiter Outreach,2024-01-11,2024-02-13,Technical Screen,33,Henry Davis,,,,Yes,5,3.7,Mike Torres,Data,Onsite,No
+C0054,Candidate_54,Security Engineer,Referral,2024-11-06,2024-11-23,Technical Screen,17,Emma Williams,,,,Yes,5,3.7,Lisa Wang,Security,Onsite,No
+C0055,Candidate_55,Frontend Engineer,University,2024-04-11,2024-07-03,Applied,83,,,,,Yes,9,,Sarah Park,Infrastructure,Onsite,Unknown
+C0056,Candidate_56,Staff Engineer,Recruiter Outreach,2024-10-16,2024-12-02,Onsite,47,"Frank Brown, Bob Martinez, James Wilson, Alice Chen, David Kim",,,,Yes,17,2.3,Lisa Wang,Data,Onsite,Yes
+C0057,Candidate_57,Frontend Engineer,Referral,2024-09-24,2024-10-31,Rejected,37,,Background check,,,Yes,19,4.3,John Smith,Data,Onsite,Unknown
+C0058,Candidate_58,Data Engineer,Indeed,2024-05-05,2024-05-19,Offer,14,"David Kim, Henry Davis, Grace Lee, Carol Johnson",,147523,Location/remote policy,No,12,2.5,Mike Torres,Infrastructure,Hybrid,No
+C0059,Candidate_59,Data Engineer,Company Website,2024-12-25,2025-03-09,Hired,74,"David Kim, Bob Martinez, James Wilson, Frank Brown, Henry Davis",,268077,,Yes,19,4.3,John Smith,Data,Hybrid,Yes
+C0060,Candidate_60,Staff Engineer,Indeed,2024-04-23,2024-05-27,Phone Screen,34,,,,,Yes,11,,Lisa Wang,Data,Onsite,Unknown
+C0061,Candidate_61,Security Engineer,Glassdoor,2024-10-08,2024-12-08,Phone Screen,61,,,,,Yes,10,,Lisa Wang,Infrastructure,Remote,Yes
+C0062,Candidate_62,DevOps Engineer,Indeed,2024-03-02,2024-03-28,Onsite,26,"Henry Davis, Emma Williams, Iris Thompson",,,,Yes,5,4.5,Lisa Wang,Product,Hybrid,Yes
+C0063,Candidate_63,Data Engineer,LinkedIn,2024-12-28,2025-02-04,Technical Screen,38,Alice Chen,,,,Yes,19,2.9,Mike Torres,Data,Remote,Yes
+C0064,Candidate_64,Data Engineer,Glassdoor,2024-09-02,2024-09-28,Phone Screen,26,,,,,Yes,3,,Lisa Wang,Data,Remote,Yes
+C0065,Candidate_65,Frontend Engineer,Glassdoor,2024-02-07,2024-05-07,Technical Screen,90,Carol Johnson,,,,Yes,6,4.4,Lisa Wang,Platform,Remote,Yes
+C0066,Candidate_66,Frontend Engineer,Company Website,2024-11-01,2024-12-02,Onsite,31,"Henry Davis, Emma Williams, Grace Lee, Carol Johnson",,,,Yes,20,3.9,Sarah Park,Product,Onsite,Yes
+C0067,Candidate_67,Data Engineer,University,2024-02-11,2024-03-07,Applied,25,,,,,Yes,19,,Sarah Park,Product,Remote,No
+C0068,Candidate_68,ML Engineer,University,2024-10-31,2024-11-07,Technical Screen,7,Emma Williams,,,,No,11,4.1,John Smith,Platform,Onsite,Yes
+C0069,Candidate_69,Data Engineer,Recruiter Outreach,2024-11-16,2024-12-14,Technical Screen,28,"Bob Martinez, Iris Thompson",,,,Yes,9,3.9,Lisa Wang,Product,Remote,Yes
+C0070,Candidate_70,Engineering Manager,Recruiter Outreach,2024-06-06,2024-08-20,Technical Screen,75,"Henry Davis, Bob Martinez",,,,Yes,16,4.1,John Smith,Infrastructure,Onsite,Unknown
+C0071,Candidate_71,ML Engineer,Glassdoor,2024-02-11,2024-04-09,Technical Screen,58,"James Wilson, Emma Williams",,,,Yes,2,2.3,Sarah Park,Infrastructure,Onsite,Yes
+C0072,Candidate_72,Engineering Manager,Glassdoor,2024-09-22,2024-10-30,Onsite,38,"Grace Lee, Henry Davis, Bob Martinez, David Kim, Carol Johnson",,,,Yes,15,3.0,Sarah Park,Product,Hybrid,No
+C0073,Candidate_73,ML Engineer,Indeed,2024-12-05,2025-02-16,Hired,73,"Bob Martinez, Frank Brown, Emma Williams, Carol Johnson",,170388,,Yes,14,4.6,Sarah Park,Security,Hybrid,No
+C0074,Candidate_74,Senior Software Engineer,Referral,2024-09-22,2024-11-27,Phone Screen,66,,,,,Yes,16,,Sarah Park,Product,Hybrid,Unknown
+C0075,Candidate_75,Engineering Manager,Indeed,2024-08-12,2024-10-16,Hired,65,"James Wilson, David Kim, Carol Johnson",,221461,,Yes,19,2.0,John Smith,Platform,Remote,Yes
+C0076,Candidate_76,ML Engineer,LinkedIn,2024-11-27,2025-02-01,Offer,66,"Emma Williams, Grace Lee, Henry Davis, David Kim, Bob Martinez",,259743,Company culture concern,Yes,6,3.2,Mike Torres,Platform,Hybrid,No
+C0077,Candidate_77,Security Engineer,Recruiter Outreach,2024-09-16,2024-09-19,Phone Screen,3,,,,,No,11,,Lisa Wang,Security,Onsite,Unknown
+C0078,Candidate_78,ML Engineer,Recruiter Outreach,2024-03-17,2024-05-20,Phone Screen,64,,,,,Yes,13,,Lisa Wang,Security,Onsite,No
+C0079,Candidate_79,ML Engineer,Indeed,2024-04-06,2024-05-09,Rejected,33,,Background check,,,Yes,14,2.7,John Smith,Platform,Hybrid,Unknown
+C0080,Candidate_80,ML Engineer,University,2024-07-14,2024-10-09,Phone Screen,87,,,,,Yes,6,,John Smith,Platform,Remote,Unknown
+C0081,Candidate_81,Security Engineer,Recruiter Outreach,2024-02-21,2024-04-20,Offer,59,"Henry Davis, Alice Chen, Carol Johnson, David Kim, Frank Brown",,180464,Compensation too low,Yes,17,4.3,Lisa Wang,Infrastructure,Onsite,Unknown
+C0082,Candidate_82,Frontend Engineer,University,2024-02-11,2024-05-10,Offer,89,"Henry Davis, Iris Thompson, Alice Chen, Emma Williams",,157936,Accepted competing offer,Yes,11,5.0,Sarah Park,Data,Remote,Unknown
+C0083,Candidate_83,Staff Engineer,Glassdoor,2024-03-26,2024-04-01,Onsite,6,"Alice Chen, Emma Williams, Frank Brown, Carol Johnson",,,,No,15,2.4,John Smith,Security,Onsite,Yes
+C0084,Candidate_84,Engineering Manager,Referral,2024-02-10,2024-04-01,Technical Screen,51,Henry Davis,,,,Yes,20,2.4,John Smith,Infrastructure,Hybrid,No
+C0085,Candidate_85,Senior Software Engineer,Recruiter Outreach,2024-08-26,2024-11-23,Hired,89,"Henry Davis, Frank Brown, Emma Williams",,251230,,Yes,10,3.4,Lisa Wang,Product,Hybrid,No
+C0086,Candidate_86,Staff Engineer,Referral,2024-07-14,2024-09-28,Technical Screen,76,"Emma Williams, Alice Chen",,,,Yes,14,2.8,Sarah Park,Security,Onsite,No
+C0087,Candidate_87,Data Engineer,Recruiter Outreach,2024-04-27,2024-06-14,Technical Screen,48,David Kim,,,,Yes,10,4.0,Mike Torres,Platform,Onsite,Unknown
+C0088,Candidate_88,Senior Software Engineer,Indeed,2024-08-13,2024-10-01,Applied,49,,,,,Yes,6,,Sarah Park,Infrastructure,Hybrid,Unknown
+C0089,Candidate_89,Frontend Engineer,Referral,2024-04-12,2024-06-23,Applied,72,,,,,Yes,13,,Lisa Wang,Product,Hybrid,No
+C0090,Candidate_90,Data Engineer,University,2024-06-22,2024-08-23,Offer,62,"David Kim, Grace Lee, Frank Brown",,163672,Location/remote policy,Yes,2,2.8,Sarah Park,Data,Hybrid,Unknown
+C0091,Candidate_91,Data Engineer,Company Website,2024-07-14,2024-09-02,Offer,50,"David Kim, Henry Davis, Alice Chen, Emma Williams, Grace Lee",,225984,Company culture concern,Yes,9,3.9,John Smith,Infrastructure,Onsite,No
+C0092,Candidate_92,Staff Engineer,Referral,2024-01-24,2024-03-05,Hired,41,"Bob Martinez, David Kim, Carol Johnson",,241881,,Yes,16,3.1,John Smith,Security,Onsite,Unknown
+C0093,Candidate_93,Engineering Manager,Glassdoor,2024-12-01,2025-02-04,Applied,65,,,,,Yes,15,,Lisa Wang,Platform,Onsite,No
+C0094,Candidate_94,DevOps Engineer,Glassdoor,2024-08-15,2024-10-03,Rejected,49,,Failed technical screen,,,Yes,13,3.6,Lisa Wang,Platform,Hybrid,No
+C0095,Candidate_95,DevOps Engineer,LinkedIn,2024-08-20,2024-09-19,Applied,30,,,,,Yes,2,,Sarah Park,Infrastructure,Remote,Yes
+C0096,Candidate_96,DevOps Engineer,LinkedIn,2024-10-10,2024-11-09,Applied,30,,,,,Yes,9,,Lisa Wang,Product,Onsite,Yes
+C0097,Candidate_97,Data Engineer,Recruiter Outreach,2024-03-15,2024-05-26,Rejected,72,,Overqualified,,,Yes,7,2.3,Sarah Park,Product,Remote,No
+C0098,Candidate_98,DevOps Engineer,Company Website,2024-06-14,2024-07-20,Applied,36,,,,,Yes,3,,Mike Torres,Data,Onsite,Yes
+C0099,Candidate_99,Staff Engineer,Glassdoor,2024-08-17,2024-10-24,Onsite,68,"Iris Thompson, David Kim, Alice Chen, Frank Brown",,,,Yes,18,2.9,Sarah Park,Platform,Hybrid,No
+C0100,Candidate_100,Frontend Engineer,University,2024-02-25,2024-04-24,Technical Screen,59,Bob Martinez,,,,Yes,12,3.8,Sarah Park,Product,Hybrid,Unknown
+C0101,Candidate_101,Security Engineer,Glassdoor,2024-11-01,2025-01-01,Technical Screen,61,"Bob Martinez, James Wilson",,,,Yes,19,4.2,Mike Torres,Data,Hybrid,Yes
+C0102,Candidate_102,Frontend Engineer,Indeed,2024-08-20,2024-09-04,Phone Screen,15,,,,,Yes,12,,John Smith,Infrastructure,Onsite,No
+C0103,Candidate_103,Security Engineer,Referral,2024-12-17,2024-12-28,Hired,11,"Bob Martinez, Grace Lee, James Wilson",,237687,,No,6,3.7,Lisa Wang,Platform,Hybrid,No
+C0104,Candidate_104,Frontend Engineer,Recruiter Outreach,2024-01-27,2024-04-15,Rejected,79,,Overqualified,,,Yes,13,2.3,Mike Torres,Product,Onsite,No
+C0105,Candidate_105,DevOps Engineer,Recruiter Outreach,2024-02-25,2024-05-09,Phone Screen,74,,,,,Yes,13,,Sarah Park,Infrastructure,Onsite,Yes
+C0106,Candidate_106,Frontend Engineer,Recruiter Outreach,2024-10-14,2025-01-04,Rejected,82,,Background check,,,Yes,19,2.1,Lisa Wang,Platform,Remote,No
+C0107,Candidate_107,Data Engineer,Indeed,2024-06-28,2024-07-19,Applied,21,,,,,Yes,20,,John Smith,Platform,Remote,Unknown
+C0108,Candidate_108,Senior Software Engineer,LinkedIn,2024-09-28,2024-11-23,Applied,56,,,,,Yes,16,,Lisa Wang,Product,Hybrid,No
+C0109,Candidate_109,Security Engineer,Recruiter Outreach,2024-10-17,2024-10-26,Technical Screen,9,Carol Johnson,,,,No,3,4.0,Lisa Wang,Data,Onsite,No
+C0110,Candidate_110,ML Engineer,Company Website,2024-08-14,2024-09-13,Phone Screen,30,,,,,Yes,18,,Sarah Park,Infrastructure,Hybrid,Yes
+C0111,Candidate_111,Data Engineer,University,2024-12-13,2025-02-21,Technical Screen,70,"Alice Chen, David Kim",,,,Yes,14,5.0,Sarah Park,Platform,Remote,No
+C0112,Candidate_112,DevOps Engineer,Recruiter Outreach,2024-03-11,2024-04-20,Onsite,40,"Alice Chen, Henry Davis, Grace Lee",,,,Yes,7,2.4,Mike Torres,Security,Onsite,Unknown
+C0113,Candidate_113,Security Engineer,LinkedIn,2024-07-22,2024-07-30,Offer,8,"Henry Davis, Bob Martinez, Frank Brown",,252534,Company culture concern,No,14,4.1,John Smith,Infrastructure,Remote,No
+C0114,Candidate_114,Senior Software Engineer,Indeed,2024-03-28,2024-06-18,Offer,82,"Frank Brown, Bob Martinez, Grace Lee, Henry Davis, Alice Chen",,203783,Location/remote policy,Yes,20,3.2,Sarah Park,Data,Hybrid,Unknown
+C0115,Candidate_115,Security Engineer,Referral,2024-06-19,2024-07-01,Onsite,12,"Iris Thompson, David Kim, Frank Brown, Carol Johnson, Henry Davis",,,,No,6,2.7,Mike Torres,Infrastructure,Remote,Yes
+C0116,Candidate_116,Engineering Manager,Recruiter Outreach,2024-12-01,2025-02-22,Applied,83,,,,,Yes,17,,John Smith,Security,Onsite,No
+C0117,Candidate_117,Security Engineer,Recruiter Outreach,2024-11-17,2025-01-15,Phone Screen,59,,,,,Yes,4,,John Smith,Data,Onsite,No
+C0118,Candidate_118,Data Engineer,Company Website,2024-01-29,2024-02-10,Phone Screen,12,,,,,Yes,11,,John Smith,Data,Remote,Yes
+C0119,Candidate_119,Security Engineer,Recruiter Outreach,2024-05-26,2024-06-09,Applied,14,,,,,Yes,18,,John Smith,Data,Onsite,Unknown
+C0120,Candidate_120,Senior Software Engineer,Glassdoor,2024-10-19,2024-12-02,Onsite,44,"Carol Johnson, Alice Chen, Henry Davis, Iris Thompson, James Wilson",,,,Yes,4,3.5,Mike Torres,Platform,Remote,Unknown
+C0121,Candidate_121,ML Engineer,Glassdoor,2024-09-25,2024-10-18,Technical Screen,23,"Frank Brown, Emma Williams",,,,Yes,14,3.2,Lisa Wang,Security,Remote,Unknown
+C0122,Candidate_122,Security Engineer,LinkedIn,2024-06-17,2024-09-14,Applied,89,,,,,Yes,14,,Lisa Wang,Infrastructure,Onsite,Unknown
+C0123,Candidate_123,Engineering Manager,Indeed,2024-02-11,2024-03-03,Technical Screen,21,"Emma Williams, Grace Lee",,,,Yes,6,3.8,Sarah Park,Infrastructure,Onsite,No
+C0124,Candidate_124,Security Engineer,Recruiter Outreach,2024-03-06,2024-06-04,Onsite,90,"Grace Lee, Iris Thompson, Frank Brown, Alice Chen, Carol Johnson",,,,Yes,11,2.5,Mike Torres,Infrastructure,Hybrid,Yes
+C0125,Candidate_125,DevOps Engineer,Referral,2024-03-20,2024-04-04,Applied,15,,,,,Yes,18,,Sarah Park,Infrastructure,Onsite,Yes
+C0126,Candidate_126,Frontend Engineer,Referral,2024-03-24,2024-06-14,Applied,82,,,,,Yes,7,,John Smith,Platform,Hybrid,No
+C0127,Candidate_127,DevOps Engineer,Glassdoor,2024-11-08,2025-01-07,Phone Screen,60,,,,,Yes,9,,Mike Torres,Infrastructure,Hybrid,Yes
+C0128,Candidate_128,Security Engineer,University,2024-10-19,2024-12-20,Rejected,62,,Overqualified,,,Yes,14,3.5,John Smith,Product,Remote,Unknown
+C0129,Candidate_129,Engineering Manager,Recruiter Outreach,2024-05-08,2024-07-11,Applied,64,,,,,Yes,13,,Sarah Park,Security,Remote,No
+C0130,Candidate_130,Staff Engineer,Recruiter Outreach,2024-03-23,2024-05-30,Phone Screen,68,,,,,Yes,6,,John Smith,Platform,Remote,No
+C0131,Candidate_131,Security Engineer,LinkedIn,2024-07-31,2024-10-06,Applied,67,,,,,Yes,13,,Mike Torres,Data,Remote,No
+C0132,Candidate_132,DevOps Engineer,LinkedIn,2024-06-12,2024-09-06,Hired,86,"Carol Johnson, Alice Chen, Emma Williams",,263851,,Yes,6,4.3,John Smith,Data,Onsite,Yes
+C0133,Candidate_133,Staff Engineer,LinkedIn,2024-05-11,2024-06-02,Applied,22,,,,,Yes,19,,John Smith,Platform,Hybrid,Yes
+C0134,Candidate_134,Data Engineer,LinkedIn,2024-01-25,2024-04-18,Applied,84,,,,,Yes,16,,Sarah Park,Platform,Hybrid,Unknown
+C0135,Candidate_135,Senior Software Engineer,University,2024-09-20,2024-10-11,Technical Screen,21,"Grace Lee, Alice Chen",,,,Yes,13,2.7,John Smith,Product,Onsite,Unknown
+C0136,Candidate_136,Staff Engineer,Company Website,2024-07-03,2024-09-11,Applied,70,,,,,Yes,19,,Sarah Park,Data,Hybrid,Yes
+C0137,Candidate_137,Frontend Engineer,Indeed,2024-05-09,2024-06-26,Onsite,48,"David Kim, Bob Martinez, Frank Brown, Iris Thompson",,,,Yes,3,3.1,Lisa Wang,Product,Onsite,No
+C0138,Candidate_138,ML Engineer,University,2024-04-03,2024-04-14,Offer,11,"Emma Williams, David Kim, Alice Chen",,192289,Compensation too low,No,12,4.8,John Smith,Security,Hybrid,No
+C0139,Candidate_139,Senior Software Engineer,Recruiter Outreach,2024-11-27,2025-01-14,Applied,48,,,,,Yes,3,,Lisa Wang,Infrastructure,Remote,No
+C0140,Candidate_140,Frontend Engineer,Glassdoor,2024-08-13,2024-10-04,Hired,52,"Henry Davis, James Wilson, Frank Brown",,276125,,Yes,10,4.4,John Smith,Platform,Hybrid,Unknown
+C0141,Candidate_141,Engineering Manager,Company Website,2024-05-30,2024-06-12,Phone Screen,13,,,,,Yes,12,,Lisa Wang,Infrastructure,Hybrid,Unknown
+C0142,Candidate_142,Frontend Engineer,Referral,2024-12-19,2025-02-17,Phone Screen,60,,,,,Yes,3,,Lisa Wang,Security,Hybrid,No
+C0143,Candidate_143,Senior Software Engineer,LinkedIn,2024-12-09,2025-01-27,Technical Screen,49,Alice Chen,,,,Yes,6,4.5,John Smith,Platform,Remote,Yes
+C0144,Candidate_144,DevOps Engineer,Recruiter Outreach,2024-11-26,2025-01-17,Phone Screen,52,,,,,Yes,20,,Sarah Park,Security,Remote,Unknown
+C0145,Candidate_145,ML Engineer,Indeed,2024-07-09,2024-07-21,Phone Screen,12,,,,,Yes,20,,Mike Torres,Security,Hybrid,No
+C0146,Candidate_146,Security Engineer,University,2024-05-22,2024-06-08,Applied,17,,,,,Yes,2,,Mike Torres,Data,Onsite,No
+C0147,Candidate_147,Staff Engineer,Indeed,2024-05-13,2024-06-12,Onsite,30,"Henry Davis, David Kim, Bob Martinez, James Wilson, Alice Chen",,,,Yes,16,2.5,John Smith,Platform,Onsite,No
+C0148,Candidate_148,Security Engineer,University,2024-02-03,2024-03-14,Technical Screen,40,"Carol Johnson, James Wilson",,,,Yes,13,3.5,Sarah Park,Product,Remote,Yes
+C0149,Candidate_149,ML Engineer,LinkedIn,2024-07-03,2024-08-22,Technical Screen,50,"Iris Thompson, Carol Johnson",,,,Yes,4,2.2,John Smith,Data,Onsite,No
+C0150,Candidate_150,Frontend Engineer,Recruiter Outreach,2024-10-21,2024-12-03,Applied,43,,,,,Yes,4,,John Smith,Data,Onsite,Unknown
+C0151,Candidate_151,Security Engineer,Referral,2024-10-09,2024-11-04,Technical Screen,26,Grace Lee,,,,Yes,18,4.7,Sarah Park,Platform,Onsite,Yes
+C0152,Candidate_152,Data Engineer,Referral,2024-03-23,2024-04-23,Phone Screen,31,,,,,Yes,13,,Lisa Wang,Platform,Hybrid,Yes
+C0153,Candidate_153,Data Engineer,Referral,2024-11-16,2025-01-26,Phone Screen,71,,,,,Yes,4,,Mike Torres,Security,Onsite,Yes
+C0154,Candidate_154,Engineering Manager,University,2024-11-15,2025-02-03,Onsite,80,"Alice Chen, James Wilson, Bob Martinez, Iris Thompson, Frank Brown",,,,Yes,20,2.8,Mike Torres,Security,Hybrid,Unknown
+C0155,Candidate_155,Senior Software Engineer,Glassdoor,2024-11-17,2025-02-10,Technical Screen,85,"Henry Davis, David Kim",,,,Yes,14,2.9,Sarah Park,Platform,Remote,No
+C0156,Candidate_156,Frontend Engineer,Glassdoor,2024-08-25,2024-11-13,Applied,80,,,,,Yes,6,,Lisa Wang,Infrastructure,Onsite,No
+C0157,Candidate_157,Frontend Engineer,Referral,2024-07-08,2024-07-24,Technical Screen,16,"David Kim, Henry Davis",,,,Yes,5,2.8,Mike Torres,Product,Remote,Yes
+C0158,Candidate_158,Data Engineer,Glassdoor,2024-11-11,2024-12-04,Phone Screen,23,,,,,Yes,12,,Lisa Wang,Product,Remote,No
+C0159,Candidate_159,ML Engineer,Glassdoor,2024-06-06,2024-06-20,Technical Screen,14,"Iris Thompson, Henry Davis",,,,No,9,2.6,Lisa Wang,Platform,Remote,No
+C0160,Candidate_160,ML Engineer,Company Website,2024-11-30,2025-01-08,Onsite,39,"Grace Lee, Carol Johnson, Emma Williams",,,,Yes,13,4.3,Lisa Wang,Platform,Hybrid,Yes
+C0161,Candidate_161,DevOps Engineer,Indeed,2024-10-10,2024-12-01,Phone Screen,52,,,,,Yes,18,,John Smith,Security,Hybrid,Unknown
+C0162,Candidate_162,Staff Engineer,Referral,2024-02-19,2024-04-05,Phone Screen,46,,,,,Yes,19,,Lisa Wang,Product,Remote,Unknown
+C0163,Candidate_163,Frontend Engineer,Company Website,2024-01-21,2024-02-10,Applied,20,,,,,Yes,12,,John Smith,Security,Hybrid,Yes
+C0164,Candidate_164,Engineering Manager,Indeed,2024-11-09,2025-01-01,Phone Screen,53,,,,,Yes,11,,Lisa Wang,Security,Onsite,Unknown
+C0165,Candidate_165,ML Engineer,University,2024-10-15,2024-10-20,Phone Screen,5,,,,,No,13,,Lisa Wang,Platform,Hybrid,Unknown
+C0166,Candidate_166,Data Engineer,Recruiter Outreach,2024-12-18,2025-03-07,Technical Screen,79,"Emma Williams, David Kim",,,,Yes,3,3.8,Mike Torres,Security,Onsite,Unknown
+C0167,Candidate_167,Frontend Engineer,Referral,2024-12-14,2025-02-28,Applied,76,,,,,Yes,5,,Mike Torres,Platform,Hybrid,No
+C0168,Candidate_168,Frontend Engineer,Referral,2024-07-30,2024-09-23,Onsite,55,"Alice Chen, Carol Johnson, David Kim, Emma Williams, Iris Thompson",,,,Yes,17,3.6,Lisa Wang,Product,Hybrid,Unknown
+C0169,Candidate_169,Security Engineer,Company Website,2024-06-30,2024-09-28,Onsite,90,"Henry Davis, David Kim, Iris Thompson, Carol Johnson, Emma Williams",,,,Yes,11,2.7,Lisa Wang,Infrastructure,Onsite,Yes
+C0170,Candidate_170,ML Engineer,Indeed,2024-09-02,2024-10-10,Phone Screen,38,,,,,Yes,11,,Sarah Park,Security,Onsite,Unknown
+C0171,Candidate_171,Frontend Engineer,Glassdoor,2024-06-25,2024-07-16,Rejected,21,,Overqualified,,,No,3,2.9,Sarah Park,Infrastructure,Hybrid,Unknown
+C0172,Candidate_172,Data Engineer,University,2024-09-02,2024-11-12,Applied,71,,,,,Yes,10,,Lisa Wang,Product,Remote,Unknown
+C0173,Candidate_173,DevOps Engineer,Referral,2024-01-26,2024-04-05,Onsite,70,"David Kim, Alice Chen, Bob Martinez, James Wilson, Carol Johnson",,,,Yes,17,2.3,Mike Torres,Platform,Onsite,Yes
+C0174,Candidate_174,Frontend Engineer,University,2024-08-31,2024-09-28,Technical Screen,28,"Frank Brown, Emma Williams",,,,Yes,3,4.7,Sarah Park,Security,Remote,Unknown
+C0175,Candidate_175,Senior Software Engineer,Referral,2024-08-01,2024-08-26,Hired,25,"Henry Davis, Carol Johnson, Emma Williams, Alice Chen",,142429,,No,11,3.7,Sarah Park,Infrastructure,Hybrid,No
+C0176,Candidate_176,ML Engineer,Referral,2024-09-15,2024-10-12,Technical Screen,27,Frank Brown,,,,Yes,7,4.2,Lisa Wang,Product,Remote,Unknown
+C0177,Candidate_177,Security Engineer,Recruiter Outreach,2024-05-31,2024-06-27,Technical Screen,27,James Wilson,,,,Yes,14,4.5,Lisa Wang,Platform,Hybrid,Unknown
+C0178,Candidate_178,Staff Engineer,Referral,2024-03-12,2024-04-15,Technical Screen,34,Emma Williams,,,,Yes,14,2.7,Lisa Wang,Infrastructure,Hybrid,Unknown
+C0179,Candidate_179,Senior Software Engineer,Indeed,2024-11-30,2025-01-02,Phone Screen,33,,,,,Yes,3,,Sarah Park,Data,Hybrid,Yes
+C0180,Candidate_180,Frontend Engineer,University,2024-09-14,2024-10-26,Hired,42,"Emma Williams, Frank Brown, David Kim, Bob Martinez, Grace Lee",,265352,,Yes,6,3.4,Lisa Wang,Data,Onsite,Unknown
+C0181,Candidate_181,ML Engineer,Recruiter Outreach,2024-10-02,2024-11-01,Offer,30,"James Wilson, Bob Martinez, Henry Davis, Emma Williams, Frank Brown",,234839,Compensation too low,No,20,2.3,Mike Torres,Security,Onsite,Yes
+C0182,Candidate_182,Engineering Manager,Indeed,2024-09-23,2024-12-22,Phone Screen,90,,,,,Yes,8,,John Smith,Platform,Onsite,No
+C0183,Candidate_183,Senior Software Engineer,Glassdoor,2024-03-08,2024-05-08,Technical Screen,61,Iris Thompson,,,,Yes,16,4.0,Lisa Wang,Platform,Hybrid,No
+C0184,Candidate_184,Senior Software Engineer,University,2024-04-21,2024-04-29,Technical Screen,8,"Frank Brown, Bob Martinez",,,,No,19,5.0,Sarah Park,Data,Remote,No
+C0185,Candidate_185,Frontend Engineer,Referral,2024-03-10,2024-06-03,Onsite,85,"Grace Lee, Henry Davis, James Wilson, David Kim",,,,Yes,4,4.0,Mike Torres,Infrastructure,Remote,Yes
+C0186,Candidate_186,Frontend Engineer,Company Website,2024-03-06,2024-04-06,Onsite,31,"Emma Williams, Henry Davis, Grace Lee",,,,Yes,19,3.1,Mike Torres,Product,Hybrid,No
+C0187,Candidate_187,Engineering Manager,Indeed,2024-04-06,2024-04-23,Hired,17,"Grace Lee, Alice Chen, David Kim, Bob Martinez, Iris Thompson",,166449,,No,3,3.3,Sarah Park,Product,Onsite,Yes
+C0188,Candidate_188,Frontend Engineer,Glassdoor,2024-04-29,2024-05-09,Technical Screen,10,Iris Thompson,,,,No,11,2.7,Lisa Wang,Security,Onsite,Unknown
+C0189,Candidate_189,Security Engineer,Referral,2024-06-03,2024-08-29,Offer,87,"Emma Williams, James Wilson, Alice Chen, Iris Thompson",,185910,Timing,Yes,15,3.7,Sarah Park,Infrastructure,Onsite,Unknown
+C0190,Candidate_190,Frontend Engineer,Recruiter Outreach,2024-09-25,2024-11-20,Phone Screen,56,,,,,Yes,15,,Mike Torres,Infrastructure,Hybrid,Yes
+C0191,Candidate_191,ML Engineer,Referral,2024-04-25,2024-05-16,Phone Screen,21,,,,,Yes,16,,Sarah Park,Security,Hybrid,No
+C0192,Candidate_192,Engineering Manager,Glassdoor,2024-05-04,2024-06-18,Phone Screen,45,,,,,Yes,4,,John Smith,Infrastructure,Remote,Unknown
+C0193,Candidate_193,DevOps Engineer,LinkedIn,2024-05-17,2024-08-05,Phone Screen,80,,,,,Yes,3,,Sarah Park,Product,Onsite,Unknown
+C0194,Candidate_194,DevOps Engineer,Glassdoor,2024-04-16,2024-05-31,Offer,45,"David Kim, James Wilson, Bob Martinez",,265546,Accepted competing offer,Yes,8,3.2,Mike Torres,Security,Hybrid,No
+C0195,Candidate_195,Frontend Engineer,Glassdoor,2024-09-30,2024-11-11,Technical Screen,42,"Frank Brown, Iris Thompson",,,,Yes,17,3.4,John Smith,Infrastructure,Remote,No
+C0196,Candidate_196,Security Engineer,Glassdoor,2024-01-24,2024-02-24,Technical Screen,31,Alice Chen,,,,Yes,10,3.7,John Smith,Infrastructure,Remote,Yes
+C0197,Candidate_197,Security Engineer,Referral,2024-07-13,2024-08-16,Technical Screen,34,"Iris Thompson, Frank Brown",,,,Yes,10,4.3,John Smith,Data,Hybrid,Yes
+C0198,Candidate_198,Security Engineer,Referral,2024-03-12,2024-05-16,Onsite,65,"Alice Chen, Iris Thompson, James Wilson, Grace Lee, Henry Davis",,,,Yes,3,4.3,John Smith,Product,Onsite,Yes
+C0199,Candidate_199,Staff Engineer,University,2024-03-18,2024-05-24,Applied,67,,,,,Yes,16,,Lisa Wang,Platform,Onsite,Unknown
+C0200,Candidate_200,ML Engineer,University,2024-09-06,2024-11-16,Applied,71,,,,,Yes,19,,John Smith,Platform,Remote,Unknown
