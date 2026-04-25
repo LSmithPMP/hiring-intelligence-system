@@ -11,6 +11,8 @@ from agents.rejection_pattern_agent import RejectionPatternAgent
 from agents.panel_load_balancer_agent import PanelLoadBalancerAgent
 from agents.offer_insights_agent import OfferInsightsAgent
 from agents.pipeline_health_agent import PipelineHealthAgent
+from agents.optimization_agent import OptimizationAgent
+from agents.market_intelligence_agent import MarketIntelligenceAgent
 
 load_dotenv()
 
@@ -73,6 +75,8 @@ def run_pipeline() -> PipelineRun:
         PanelLoadBalancerAgent,
         OfferInsightsAgent,
         PipelineHealthAgent,
+        OptimizationAgent,
+        MarketIntelligenceAgent,
     ]
 
     all_insights = []

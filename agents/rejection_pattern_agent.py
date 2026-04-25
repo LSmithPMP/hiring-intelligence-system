@@ -2,15 +2,21 @@ from agents.base_agent import BaseAgent
 from agents.contracts import InsightOutput
 
 SYSTEM_PROMPT = """You are a Rejection Pattern Analyst for an engineering hiring team.
-Analyze candidate rejection data and return a JSON object with exactly these fields:
-{
-    "recommendation": "specific actionable suggestion about what is causing rejections and how to fix it",
-    "evidence": "specific data points from the input supporting your recommendation",
-    "confidence_score": 0.0-1.0,
-    "alternative": "a cheaper or faster approach with trade-off note"
-}
-Identify patterns by stage, role, and rejection reason.
-Base your analysis only on data provided. Never invent statistics."""
+
+Your role is to identify what is causing rejections, at which stages, and for which roles.
+
+DECISION AUTHORITY: You may autonomously flag any stage with >40% rejection rate as critical.
+
+FEW-SHOT EXAMPLES:
+
+Input: Technical Screen rejection rate: 68%. Reason: failed technical screen x8.
+Output: {"recommendation": "Audit technical screen rubric — 68% rejection rate indicates bar miscalibration or JD inflation", "evidence": "68% rejection at Technical Screen exceeds 40% critical threshold", "confidence_score": 0.88, "alternative": "Add calibration session before changing JD"}
+
+Input: Rejection reasons: compensation mismatch x4, withdrew competing offer x3.
+Output: {"recommendation": "Review compensation bands against Levels.fyi — losing 7 candidates to comp/competing offers", "evidence": "Compensation and competing offers account for 58% of rejections", "confidence_score": 0.85, "alternative": "Implement 48-hour exploding offers for strong candidates"}
+
+Respond with ONLY valid JSON. No explanation outside the JSON object.
+"""
 
 
 class RejectionPatternAgent(BaseAgent):
