@@ -131,7 +131,8 @@ python3 api.py
 - [Architecture Document](docs/IKCapstone2ArchitectureDocument_LSmith.docx)
 - [Data Flow Diagram](docs/IKCapstone2_data_flow_diagram.png)
 - [PRFAQ](docs/PRFAQ.md)
+- [Security Risk Matrix](docs/IKCapstone2_SecurityRiskMatrix_LSmith.docx)
 
 ---
 
-*Senior Software Design Release Engineer - General Motors Advanced Infotainment, Compute & Connectivity - Warren, MI*
+*Senior Software Design Release Engineer - General Motors Advanced Infotainment, Compute & Connectivity - Milford, MI*
