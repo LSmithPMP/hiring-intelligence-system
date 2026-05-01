@@ -63,6 +63,24 @@ def search_market_data(query: str) -> str:
     """
 
 
+def _filter_market_data(raw: str) -> str:
+    """Filter web search results for harmful or irrelevant content."""
+    import re
+    blocked_patterns = [
+        r'<script.*?>.*?</script>',
+        r'javascript:',
+        r'eval[(]',
+        r'exec[(]',
+        r'DROP TABLE',
+        r'SELECT \* FROM',
+    ]
+    filtered = raw
+    for pattern in blocked_patterns:
+        filtered = re.sub(pattern, '[BLOCKED]', filtered, flags=re.IGNORECASE | re.DOTALL)
+    if len(filtered) > 3000:
+        filtered = filtered[:3000] + '...[TRUNCATED]'
+    return filtered
+
 class MarketIntelligenceAgent(BaseAgent):
     def __init__(self, model: str = "gpt-4o-mini"):
         super().__init__("MarketIntelligenceAgent", model)
@@ -74,6 +92,7 @@ class MarketIntelligenceAgent(BaseAgent):
             "software engineer salary benchmarks 2024 2025 total compensation"
         )
 
+        market_data = _filter_market_data(market_data)
         enriched_context = f"""{data_context}
 
 REAL-TIME MARKET DATA (fetched autonomously):

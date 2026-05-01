@@ -161,9 +161,14 @@ def run_pipeline() -> PipelineRun:
             'total_latency_seconds': pipeline_run.total_latency_seconds,
             'status': 'complete'
         }
+        n8n_secret = os.getenv('N8N_WEBHOOK_SECRET', '')
+        headers = {'Content-Type': 'application/json'}
+        if n8n_secret:
+            headers['X-Webhook-Secret'] = n8n_secret
         r = requests.post(
             'https://lamontesmith.app.n8n.cloud/webhook/hiring-pipeline',
             json=n8n_payload,
+            headers=headers,
             timeout=10
         )
         print(f'n8n notified: {r.status_code}')
@@ -182,9 +187,14 @@ def run_pipeline() -> PipelineRun:
             'total_latency_seconds': pipeline_run.total_latency_seconds,
             'status': 'complete'
         }
+        n8n_secret = os.getenv('N8N_WEBHOOK_SECRET', '')
+        headers = {'Content-Type': 'application/json'}
+        if n8n_secret:
+            headers['X-Webhook-Secret'] = n8n_secret
         r = requests.post(
             'https://lamontesmith.app.n8n.cloud/webhook/hiring-pipeline',
             json=n8n_payload,
+            headers=headers,
             timeout=10
         )
         print(f'n8n notified: {r.status_code}')

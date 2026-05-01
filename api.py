@@ -18,6 +18,21 @@ class PipelineRequest(BaseModel):
     filters: dict = {}
 
 
+import secrets
+from fastapi import Security, HTTPException, status
+from fastapi.security import APIKeyHeader
+
+API_KEY = os.getenv("API_KEY", secrets.token_hex(32))
+api_key_header = APIKeyHeader(name="X-API-Key", auto_error=False)
+
+async def verify_api_key(api_key: str = Security(api_key_header)):
+    if api_key != API_KEY:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Invalid or missing API key"
+        )
+    return api_key
+
 @app.get("/health")
 def health():
     return {"status": "ok", "service": "Hiring Intelligence API"}
@@ -37,7 +52,7 @@ def run_pipeline_endpoint(request: PipelineRequest):
     }
 
 
-@app.get("/pipeline/results")
+@app.get("/pipeline/results", dependencies=[Security(verify_api_key)])
 def get_results():
     results_path = "data/last_run_results.json"
     if not os.path.exists(results_path):
@@ -46,7 +61,7 @@ def get_results():
         return json.load(f)
 
 
-@app.get("/pipeline/insights")
+@app.get("/pipeline/insights", dependencies=[Security(verify_api_key)])
 def get_insights():
     results_path = "data/last_run_results.json"
     if not os.path.exists(results_path):
@@ -59,7 +74,7 @@ def get_insights():
     }
 
 
-@app.get("/pipeline/costs")
+@app.get("/pipeline/costs", dependencies=[Security(verify_api_key)])
 def get_costs():
     results_path = "data/last_run_results.json"
     if not os.path.exists(results_path):
@@ -76,7 +91,7 @@ def get_costs():
     }
 
 
-@app.get("/golden/results")
+@app.get("/golden/results", dependencies=[Security(verify_api_key)])
 def get_golden_results():
     golden_path = "data/golden_dataset_results.json"
     if not os.path.exists(golden_path):

@@ -1,4 +1,5 @@
 import os
+import re
 import time
 import json
 from dotenv import load_dotenv
@@ -28,6 +29,30 @@ class BaseAgent:
         self.model = model
         self.run_log: list[AgentRun] = []
 
+    def _sanitize_input(self, text: str) -> str:
+        """Remove prompt injection patterns from input data."""
+        patterns = [
+            r"ignore previous instructions",
+            r"ignore all previous",
+            r"disregard.*instructions",
+            r"you are now",
+            r"act as",
+            r"jailbreak",
+            r"<[|].*?[|]>",
+            r"\[INST\]",
+            r"###.*?###",
+            r"eval[(]",
+            r"exec[(]",
+            r"DROP TABLE",
+            r"SELECT \* FROM",
+        ]
+        cleaned = text
+        for pattern in patterns:
+            cleaned = re.sub(pattern, "[FILTERED]", cleaned, flags=re.IGNORECASE | re.DOTALL)
+        if len(cleaned) > 8000:
+            cleaned = cleaned[:8000] + "...[TRUNCATED]"
+        return cleaned
+
     def call_llm(self, system_prompt: str, user_prompt: str) -> tuple[str, AgentRun]:
         start = time.time()
         success = True
@@ -35,6 +60,8 @@ class BaseAgent:
         response_text = ""
         input_tokens = 0
         output_tokens = 0
+
+        user_prompt = self._sanitize_input(user_prompt)
 
         try:
             response = client.chat.completions.create(
